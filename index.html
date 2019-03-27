@@ -1,0 +1,129 @@
+<!DOCTYPE htlm>
+
+<html>
+
+	<head>
+		<title>Thanos(@Thanos) | PetIt</title>
+		<meta charset="utf-8"/>
+
+		<content></content>
+
+		<link rel="stylesheet" type="text/css" href="main.css">
+
+		<script src="main.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+
+	</head>
+	
+	<body>
+		<div class="nav-container">
+			<nav class="nav-top">
+				<a class="home" href="./home.html">Página Inicial</a>
+				<a class="notifications" href="./home.html">Notificações</a>
+				<a class="messages" href="./messages">Menssagens</a>
+				<a class="icon" href="./home.html">icon</a>
+				<a class="petitar" href="./home.html">PetItar</a>
+			</nav>
+		</div>
+		
+		<div class="grid-container">
+	
+	 		<div class="banner"> </div>
+				<section class="profile">
+				<img class="profile-photo" src="./images/profile.jpg">
+				<h2 class="pet-name">Thanos</h2>
+				<p>@Thanos <br> <br>
+				Lisboa, Portugal <br>
+				Participa desde 6 de fevereiro de 2019 <br>
+				Nasceu em 1 de janeiro de 2015 <br> <br>
+				Fotos e vídeos</p>
+				<img class="profile-more-images" src="./images/post4.jpg"> <img class="profile-more-images" src="./images/post3.jpg">
+			</section>
+
+			<nav class="nav-bottom">
+				<a class="petits" href="./home.html">PetIts</a>
+				<a class="following" href="./home.html">Seguindo</a>
+				<a class="followers" href="./messages">Seguidores</a>
+				<a class="likes" href="./home.html">Lambidas</a>
+				<a class="lists" href="./home.html">Listas</a>
+				<a class="moments" href="./home.html">Momentos</a>
+			</nav>
+
+			<div class="edit-profile-button">
+				<button type="button" class="btn btn-outline-secondary">Editar Perfil</button>
+				<button type="button" class="btn btn-outline-secondary" onClick="togglePaletaCores()">Troca cor de fundo</button>
+
+				<div class="colors" style="display: none">
+					<div id="color-1" class="color" onClick="trocaCorBackground('#fff')"></div>
+					<div id="color-2" class="color" onClick="trocaCorBackground('#ccc')"></div>
+					<div id="color-3" class="color" onClick="trocaCorBackground('#000')"></div>
+					<div id="color-4" class="color" onClick="trocaCorBackgroundRandom()">random</div>
+				</div>
+			</div>
+			
+			<section class="content">
+				<div class="posts">
+					<div class="post1">
+						<img src="./images/profile.jpg" class="post-profile-photo">
+						<p><strong>Thanos</strong> @Thanos - 6 de fev de 2019</p>
+						<p>Levando as crias pra passear. Pensa na bagunça desses cinco presos em casa.</p>
+						<img src="./images/post1.jpg" class="post-photo">
+					</div>
+
+					<div class="post2">
+						<img src="./images/profile.jpg" class="post-profile-photo">
+						<p><strong>Thanos</strong> @Thanos - 7 de fev de 2019</p>
+						<p>Aniversário do Ades ontem! Bolo delicioso! Parabéns aí mais uma vez <em>@Ades</em>.</p>
+						<img src="./images/post2.jpg" class="post-photo">
+					</div>
+
+					<div class="post3">
+						<img src="./images/profile.jpg" class="post-profile-photo">
+						<p><strong>Thanos</strong> @Thanos - 8 de fev de 2019</p>
+						<p>Alguém tem q pagar a ração das crias né? Bora trabalhar aqui.</p>
+						<img src="./images/post3.jpg" class="post-photo">
+					</div>
+
+					<div class="post4">
+						<img src="./images/profile.jpg" class="post-profile-photo">
+						<p><strong>Thanos</strong> @Thanos - 9 de fev de 2019</p>
+						<p>Boas ondas malta! Boas ondas :) </p>
+						<img src="./images/post4.jpg" class="post-photo">
+					</div>
+				</div>
+			</section>
+
+			<section class="right-box1">
+				<div class="right-box-title1">
+					<h3>Quem seguir <a href="./home.html">Atualizar - Ver todos</a></h3>
+				</div>
+
+				<div class="right-box">
+					<img src="./images/friend1.jpg" class="friend-profile-photo"> <strong>Bol</strong>@Bol
+				</div>
+
+				<div class="right-box">
+					<img src="./images/friend2.jpg" class="friend-profile-photo"> <strong>Mig</strong>@Mig
+				</div>
+
+				<div class="right-box">
+					<img src="./images/friend3.jpg" class="friend-profile-photo"> <strong>Lua</strong>@Lua
+				</div>					
+			</section>
+
+			<section class="right-box2">
+				<div class="right-box-title2">
+					<h3>Assuntos para você <a> Alterar</a></h3>
+						<p>
+							<a class="hashtag" href="#">#MordiMesmo</a>
+							<a class="hashtag" href="#">#LatiuAToa</a>
+							<a class="hashtag" href="#">#RacaoPremium</a>
+							<a class="hashtag" href="#">#CarinhoAmigo</a>
+						</p>
+				</div>					
+			</section>
+
+		</div>		
+	</body>
+</html>
